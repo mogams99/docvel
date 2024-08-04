@@ -1,5 +1,14 @@
-/postgres-data/
-/src/
-.env
-!/postgres-data/empty
-!/src/empty
+# Ignore all files and folders
+*
+
+# Allow the src and postgres-data directories
+!src/
+!postgres-data/
+
+# But still ignore all contents within these directories
+src/*
+postgres-data/*
+
+# Except for .gitignore files in these directories to keep them tracked
+!src/.gitignore
+!postgres-data/.gitignore
