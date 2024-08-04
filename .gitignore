@@ -1,3 +1,5 @@
-/postgres-data/*
-/src/*
+/postgres-data/
+/src/
 .env
+!/postgres-data/empty
+!/src/empty
